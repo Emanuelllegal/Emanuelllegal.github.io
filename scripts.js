@@ -11,7 +11,6 @@
     JAVA - script
 */
 
-let chave = "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"
 let endereco = "https://api.groq.com/openai/v1/chat/completions"
 
 async function gerarCodigo() {
