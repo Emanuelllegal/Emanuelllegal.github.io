@@ -1,0 +1,109 @@
+/*
+    começe pelo *(tudo)
+    Reset Css (igualar tudo)
+
+    Margem(distancia extena)
+    Pading(distancia interna)
+    box-sizing(formula de calcular tamanho)
+*/ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    padding: 60px 20px;
+    /*
+    1valor (60px) cima e baixo
+    2valor (20px) direita e esquerda
+    */
+    display: flex; /**/
+    flex-direction: column; /*Um debaixo do outro*/
+    align-items: center; /**/
+}
+
+.etiqueta{
+    color: #fff;
+}
+
+h1{
+    font-size: 52px;
+    font-weight: 800;
+    color: #fafafa;
+}
+
+span{
+    color: blueviolet;
+}
+
+.subtitulo{
+    color: #71717a;
+    margin-top: 16px;
+    padding: 12px;
+}
+
+.caixa-entrada{
+    width: 620px;
+    background-color: #141419;
+    border-radius: 16px;
+    padding: 12px;
+
+    display: flex;
+}
+
+textarea{
+    width: 80%;
+    resize: none;
+    outline: none;
+    background: transparent;
+    color: #fafafa;
+    padding: 8px;
+    border: none;
+}
+
+button{
+    width: 20%;
+    padding: 10px 24px;
+    color: #fff;
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.caixa-resultado{
+    width: 1400px;
+    display: flex;
+    margin-top: 50px;
+    border-radius: 12px;
+    border: 1px solid #111114;
+    padding: 24px;
+    margin-top: 12px;
+    gap: 24px;
+    background-color: #111114;
+}
+
+.bloco-codigo{
+    width: 30%;
+    background-color: #0c0c0f;
+    padding: 20px;
+    font-size: 12px;
+    color: #22c55e;
+    white-space: pre-wrap;
+    overflow: auto;
+    height: 600px;
+    border-radius: 12px;
+    border: 1px solid #27272a;
+
+}
+
+.bloco-site{
+    width: 70%;
+    height: 600px;
+    border: 1px solid #27272a;
+    border-radius: 12px;
+    background-color: #1e1e1e;
+}
